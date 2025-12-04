@@ -81,7 +81,7 @@ Traditional email filters rely on:
 | **Tone** | Emotional warmth, tension, relationship signals |
 | **Action** | Next required physical action |
 
-Each agent produces a VSE packet. These packets are merged using **Volume 5 invariants**:
+Each agent produces a VSE packet. These packets are merged using **Swarm Ethics invariants**:
 - **Benevolence clamp** - Prevents malicious routing
 - **Legibility rule** - Maintains human comprehension
 - **Non-destructive merging** - Preserves all signals
@@ -303,7 +303,7 @@ Every email gets a unique 3-glyph signature:
 - Cryptographically bound (SHA-256)
 - Human readable (visual semantic fingerprint)
 
-### Benevolent Fusion (Volume 5)
+### Benevolent Fusion (Swarm Ethics)
 
 1. **Benevolence Clamp**
    ```python
@@ -377,8 +377,8 @@ This work supports **literacy liberation** — using AI to help 4 million Americ
 
 - [PICTOGRAM-256](https://github.com/PaniclandUSA/pictogram) - Universal semantic communication system
 - [esper-stack](https://github.com/PaniclandUSA/esper-stack) - Core ESPER-STACK framework
-- VSE Protocol - Volume-Semantic-Encoding standard
-- ChronoCore - Temporal mechanics for AI systems
+- [vse](https://github.com/PaniclandUSA/vse)- VSE Protocol - Volume-Semantic-Encoding standard
+- [chronocore](https://github.com/PaniclandUSA/chronocore)- ChronoCore - Temporal mechanics for AI systems
 
 ## License
 
