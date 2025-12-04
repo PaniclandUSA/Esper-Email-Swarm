@@ -1,0 +1,112 @@
+[
+  {
+    "icon": "⚡⊻≃",
+    "gloss": "A warm and urgent and significant message about urgent",
+    "routing": {
+      "folder": "1-URGENT-NOW",
+      "color": "#FF3B30",
+      "priority": "critical"
+    },
+    "urgency": 0.7899999999999999,
+    "importance": 1.0,
+    "warmth": 0.7,
+    "tension": 0.0,
+    "action": "Take specific action mentioned",
+    "topic": "Primary topic: urgent",
+    "packets": [
+      {
+        "agent_role": "urgency",
+        "intent": {
+          "polarity": 0.0,
+          "confidence": 0.85,
+          "urgency": 0.5
+        },
+        "affect": {
+          "warmth": 0.0,
+          "tension": 0.5,
+          "formality": 0.5
+        },
+        "motif": "188697121da8e67a6a1648b370ac0f42251aa7135e9f93b8d86a12a359b4435c",
+        "gloss": "Moderate urgency with temporal constraints",
+        "confidence": 0.85,
+        "timestamp": "2025-12-04T04:03:00.896487"
+      },
+      {
+        "agent_role": "importance",
+        "intent": {
+          "polarity": 1.0,
+          "confidence": 1.0,
+          "urgency": 0.0
+        },
+        "affect": {
+          "warmth": 0.0,
+          "tension": 0.0,
+          "formality": 0.7
+        },
+        "motif": "2a60bfa6bb285b3529ee6716e7f8cfbebb481253505c728a1a96c0da8f18d9f1",
+        "gloss": "Significant relationship implications",
+        "confidence": 1.0,
+        "timestamp": "2025-12-04T04:03:00.897399"
+      },
+      {
+        "agent_role": "topic",
+        "intent": {
+          "polarity": 0.0,
+          "confidence": 0.7,
+          "urgency": 0.0
+        },
+        "affect": {
+          "warmth": 0.0,
+          "tension": 0.0,
+          "formality": 0.5
+        },
+        "motif": "20f5c163d86915509f81c49e7019bae83678cba51cdc9c1d38d1d6b3ac065bcf",
+        "gloss": "Primary topic: urgent",
+        "confidence": 0.7,
+        "timestamp": "2025-12-04T04:03:00.897604"
+      },
+      {
+        "agent_role": "tone",
+        "intent": {
+          "polarity": 0.7,
+          "confidence": 0.8,
+          "urgency": 0.0
+        },
+        "affect": {
+          "warmth": 0.7,
+          "tension": 0.0,
+          "formality": 0.0
+        },
+        "motif": "1401afb73cb07544b04a57fa664f83136ffaf1550d941215d2f5cba9be04fcf9",
+        "gloss": "Tone: warm, casual",
+        "confidence": 0.8,
+        "timestamp": "2025-12-04T04:03:00.898671"
+      },
+      {
+        "agent_role": "action",
+        "intent": {
+          "polarity": 1.0,
+          "confidence": 0.75,
+          "urgency": 1.0
+        },
+        "affect": {
+          "warmth": 0.0,
+          "tension": 1.0,
+          "formality": 0.5
+        },
+        "motif": "6fd3694cd2fd1f6aea3b1b96290aa805fda257c5593822d418cf82b2da99f664",
+        "gloss": "Take specific action mentioned",
+        "confidence": 0.75,
+        "timestamp": "2025-12-04T04:03:00.899952"
+      }
+    ],
+    "timestamp": "2025-12-04T04:03:00.900033",
+    "metadata": {
+      "subject": "URGENT - Tax documents needed before Friday deadline!",
+      "sender": "mom@example.com",
+      "to": "john@example.com",
+      "date": "Tue, 3 Dec 2024 14:23:15 -0500",
+      "message_id": "<urgent001@example.com>"
+    }
+  }
+]

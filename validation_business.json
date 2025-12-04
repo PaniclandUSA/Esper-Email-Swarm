@@ -1,0 +1,112 @@
+[
+  {
+    "icon": "⟲◌↗",
+    "gloss": "A urgent message about research",
+    "routing": {
+      "folder": "1-URGENT-NOW",
+      "color": "#FF3B30",
+      "priority": "critical"
+    },
+    "urgency": 0.76,
+    "importance": 0.0,
+    "warmth": 0.4,
+    "tension": 0.0,
+    "action": "Schedule a meeting or call",
+    "topic": "Primary topic: research",
+    "packets": [
+      {
+        "agent_role": "urgency",
+        "intent": {
+          "polarity": 0.0,
+          "confidence": 0.7,
+          "urgency": 0.0
+        },
+        "affect": {
+          "warmth": 0.0,
+          "tension": 0.0,
+          "formality": 0.5
+        },
+        "motif": "24cc7ac9ef7ae0ec43ed7e3d5135098d24e4ddfb6d86283d24818f6d850a2de9",
+        "gloss": "Low urgency, flexible timeline",
+        "confidence": 0.7,
+        "timestamp": "2025-12-04T04:07:03.258323"
+      },
+      {
+        "agent_role": "importance",
+        "intent": {
+          "polarity": 0.0,
+          "confidence": 0.6,
+          "urgency": 0.0
+        },
+        "affect": {
+          "warmth": 0.0,
+          "tension": 0.0,
+          "formality": 0.7
+        },
+        "motif": "17a6e26b6512449ac2ef4db5f120c9650ac283161e0db1dc0bab9cb1c12a62a7",
+        "gloss": "Routine general matter",
+        "confidence": 0.6,
+        "timestamp": "2025-12-04T04:07:03.259387"
+      },
+      {
+        "agent_role": "topic",
+        "intent": {
+          "polarity": 0.0,
+          "confidence": 0.7,
+          "urgency": 0.0
+        },
+        "affect": {
+          "warmth": 0.0,
+          "tension": 0.0,
+          "formality": 0.5
+        },
+        "motif": "7f3d772a89a571fa947c5debd15171789295f1cc2126ada22004d43a0e68d516",
+        "gloss": "Primary topic: research",
+        "confidence": 0.7,
+        "timestamp": "2025-12-04T04:07:03.259848"
+      },
+      {
+        "agent_role": "tone",
+        "intent": {
+          "polarity": 0.4,
+          "confidence": 0.8,
+          "urgency": 0.0
+        },
+        "affect": {
+          "warmth": 0.4,
+          "tension": 0.0,
+          "formality": 1.0
+        },
+        "motif": "d569d8c92e70420851ad1c5454d032898cea9bf83f2d01688248fc1143fc178a",
+        "gloss": "Tone: formal",
+        "confidence": 0.8,
+        "timestamp": "2025-12-04T04:07:03.260856"
+      },
+      {
+        "agent_role": "action",
+        "intent": {
+          "polarity": 1.0,
+          "confidence": 0.75,
+          "urgency": 1.0
+        },
+        "affect": {
+          "warmth": 0.0,
+          "tension": 1.0,
+          "formality": 0.5
+        },
+        "motif": "27faef01373438570109d45947824dd2eef0bee3752582021415ee9ee442d0f2",
+        "gloss": "Schedule a meeting or call",
+        "confidence": 0.75,
+        "timestamp": "2025-12-04T04:07:03.261722"
+      }
+    ],
+    "timestamp": "2025-12-04T04:07:03.261782",
+    "metadata": {
+      "subject": "Research Partnership Opportunity - PICTOGRAM Integration",
+      "sender": "dean@msoe.edu",
+      "to": "john.panic@pictogram.org",
+      "date": "Mon, 2 Dec 2024 09:15:42 -0600",
+      "message_id": "<msoe001@msoe.edu>"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+# ESPER Email Swarm - Requirements
+#
+# This project uses ONLY Python standard library.
+# No external dependencies required!
+#
+# Minimum Python version: 3.8+
+#
+# Standard library modules used:
+# - email (email parsing)
+# - imaplib (IMAP connection)
+# - hashlib (cryptographic hashing)
+# - re (regex pattern matching)
+# - json (JSON export)
+# - dataclasses (structured data)
+# - argparse (CLI interface)
+# - pathlib (file operations)
+# - datetime (timestamps)
+# - enum (agent roles)
+
+# For development/testing (optional):
+# pytest>=7.0.0
+# black>=22.0.0
+# mypy>=0.950

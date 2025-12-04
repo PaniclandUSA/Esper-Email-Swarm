@@ -1,0 +1,112 @@
+[
+  {
+    "icon": "⚞⊖●",
+    "gloss": "A routine message about research",
+    "routing": {
+      "folder": "3-Action-Required",
+      "color": "#FFCC00",
+      "priority": "medium"
+    },
+    "urgency": 0.0,
+    "importance": 0.4,
+    "warmth": 0.0,
+    "tension": 0.4,
+    "action": "Archive for later review",
+    "topic": "Primary topic: research",
+    "packets": [
+      {
+        "agent_role": "urgency",
+        "intent": {
+          "polarity": 0.0,
+          "confidence": 0.7,
+          "urgency": 0.0
+        },
+        "affect": {
+          "warmth": 0.0,
+          "tension": 0.0,
+          "formality": 0.5
+        },
+        "motif": "24cc7ac9ef7ae0ec43ed7e3d5135098d24e4ddfb6d86283d24818f6d850a2de9",
+        "gloss": "Low urgency, flexible timeline",
+        "confidence": 0.7,
+        "timestamp": "2025-12-04T04:07:07.257470"
+      },
+      {
+        "agent_role": "importance",
+        "intent": {
+          "polarity": 0.4,
+          "confidence": 0.76,
+          "urgency": 0.0
+        },
+        "affect": {
+          "warmth": 0.0,
+          "tension": 0.0,
+          "formality": 0.7
+        },
+        "motif": "6417f4368468476703963c6ebd387693b968b0fcfb80ce2983ba0dd719ffccb3",
+        "gloss": "Routine legal matter",
+        "confidence": 0.76,
+        "timestamp": "2025-12-04T04:07:07.258842"
+      },
+      {
+        "agent_role": "topic",
+        "intent": {
+          "polarity": 0.0,
+          "confidence": 0.7,
+          "urgency": 0.0
+        },
+        "affect": {
+          "warmth": 0.0,
+          "tension": 0.0,
+          "formality": 0.5
+        },
+        "motif": "7f3d772a89a571fa947c5debd15171789295f1cc2126ada22004d43a0e68d516",
+        "gloss": "Primary topic: research",
+        "confidence": 0.7,
+        "timestamp": "2025-12-04T04:07:07.259327"
+      },
+      {
+        "agent_role": "tone",
+        "intent": {
+          "polarity": -0.4,
+          "confidence": 0.8,
+          "urgency": 0.0
+        },
+        "affect": {
+          "warmth": 0.0,
+          "tension": 0.4,
+          "formality": 0.0
+        },
+        "motif": "437e4acd1f4fae32f35c338512b6b287d9670e2cb22d0320e515c0fe0fbca0ff",
+        "gloss": "Tone: casual",
+        "confidence": 0.8,
+        "timestamp": "2025-12-04T04:07:07.260580"
+      },
+      {
+        "agent_role": "action",
+        "intent": {
+          "polarity": 0.0,
+          "confidence": 0.75,
+          "urgency": 0.0
+        },
+        "affect": {
+          "warmth": 0.0,
+          "tension": 0.0,
+          "formality": 0.5
+        },
+        "motif": "1c83e1705e05a4bdab2510424911dfea7656ce241140c66b7352cd2c1fe12056",
+        "gloss": "Archive for later review",
+        "confidence": 0.75,
+        "timestamp": "2025-12-04T04:07:07.261657"
+      }
+    ],
+    "timestamp": "2025-12-04T04:07:07.261735",
+    "metadata": {
+      "subject": "AI Research Digest - December 2024 Edition",
+      "sender": "weekly@airesearch.digest",
+      "to": "subscribers@list.airesearch.digest",
+      "date": "Sun, 1 Dec 2024 08:00:00 -0800",
+      "message_id": "<newsletter001@airesearch.digest>"
+    }
+  }
+]
