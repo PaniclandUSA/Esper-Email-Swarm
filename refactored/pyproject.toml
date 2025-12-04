@@ -1,0 +1,136 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esper-email-swarm"
+version = "1.0.0"
+description = "Semantic email management with VSE protocol and PICTOGRAM-256"
+readme = "README.md"
+authors = [
+    {name = "John Panic", email = "john@pictogram.org"}
+]
+maintainers = [
+    {name = "John Panic", email = "john@pictogram.org"}
+]
+license = {text = "MIT"}
+keywords = [
+    "email",
+    "semantic-ai",
+    "vse-protocol",
+    "pictogram-256",
+    "ai-explainability",
+    "machine-learning",
+    "natural-language-processing",
+    "literacy-liberation",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Communications :: Email",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Linguistic",
+]
+requires-python = ">=3.8"
+
+# Zero dependencies - uses only Python standard library!
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=22.0.0",
+    "mypy>=0.950",
+    "ruff>=0.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/PaniclandUSA/Esper-Email-Swarm"
+Documentation = "https://github.com/PaniclandUSA/Esper-Email-Swarm#readme"
+Repository = "https://github.com/PaniclandUSA/Esper-Email-Swarm"
+"Bug Tracker" = "https://github.com/PaniclandUSA/Esper-Email-Swarm/issues"
+"Related Projects" = "https://github.com/PaniclandUSA/esper-stack"
+
+[project.scripts]
+esper-email = "esper_email_swarm.cli:main"
+
+[tool.setuptools]
+packages = ["esper_email_swarm"]
+
+[tool.setuptools.package-data]
+esper_email_swarm = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "--verbose",
+    "--cov=esper_email_swarm",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py38", "py39", "py310", "py311"]
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+check_untyped_defs = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "UP",  # pyupgrade
+]
+ignore = [
+    "E501",  # line too long (handled by black)
+    "B008",  # do not perform function calls in argument defaults
+]
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401"]  # Allow unused imports in __init__.py
