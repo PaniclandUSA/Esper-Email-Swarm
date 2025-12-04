@@ -402,7 +402,7 @@ See [LICENSE](LICENSE) file for details.
 
 - **GitHub**: [@PaniclandUSA](https://github.com/PaniclandUSA)
 - **Project**: ESPER-STACK
-- **Email**: john@pictogram.org
+- **Email**: stonespell72@gmail.com
 
 ---
 
