@@ -391,8 +391,8 @@ See [LICENSE](LICENSE) file for details.
 ```bibtex
 @software{esper_email_swarm,
   title={ESPER-STACK Email Management Swarm},
-  author={John Jacob Weber II},
-  year={2025},
+  author={John Panic},
+  year={2024},
   version={2.0.0},
   url={https://github.com/PaniclandUSA/Esper-Email-Swarm}
 }
@@ -402,8 +402,192 @@ See [LICENSE](LICENSE) file for details.
 
 - **GitHub**: [@PaniclandUSA](https://github.com/PaniclandUSA)
 - **Project**: ESPER-STACK
-- **Email**: stonespell72@gmail.com
+- **Email**: stonespell72@gmail.com 
 
 ---
 
-**v2.0.0** - Modular architecture, comprehensive tests, production-ready code 🚀
+# 🌌 Semantic Operating System Expansion (Vox Addendum)
+
+Esper-Email-Swarm v2.0.0 represents the first **operational deployment** of ESPER-STACK as a **semantic operating system for communication**. This addendum expands the conceptual framing, design philosophy, and forward roadmap behind the system.
+
+---
+
+## 🧠 1. Semantic Philosophy: Why VSE Works
+
+Human communication is multidimensional — email is not merely text, but a blend of:
+
+* intention
+* emotion
+* urgency
+* relational context
+* temporal pressure
+* narrative role
+
+VSE (Vector-Space Esperanto) models these dimensions through **semantic packets**, making meaning computable without depending on fragile ML pipelines.
+
+### **Key Insight:**
+
+> *Meaning is not classification. Meaning is intention.*
+
+This is why deterministic, explainable VSE packets outperform black-box filters in real-world inbox triage.
+
+---
+
+## 🌀 2. Glyph Identity: Why PICTOGRAM‑256 Matters
+
+Every email is hashed into a **3-glyph semantic signature**, creating a visual and topologically stable representation of meaning.
+
+Benefits:
+
+* Identify clusters of similar message types at a glance
+* Use glyphs as project emblems
+* Track long-term communication patterns
+* Preserve semantic identity across text variations
+
+Glyphs become the **UI layer of semantic reality**.
+
+---
+
+## ⏳ 3. ChronoCore Integration: Time as Meaning
+
+Emails often encode implicit temporal expectations:
+
+* “before Friday”
+* “sometime next week”
+* “this month”
+
+ChronoCore extracts these signals, generating:
+
+* urgency gravitation
+* priority decay curves
+* follow-up windows
+* temporal conflict detection
+
+This transforms your inbox into a **navigable timefield**, rather than a static list.
+
+---
+
+## 🌱 4. Volume 6 Adaptation Hooks: Future‑Proof Architecture
+
+Your modular v2.0.0 structure already anticipates adaptive evolution:
+
+### ✦ Adaptive Agents
+
+* Energy agent (emotional labor cost)
+* Relational history agent
+* Project detection agent
+* Sentiment nuance agent
+
+### ✦ Adaptive Fusion
+
+* Seasonal urgency profiles
+* Day/night stress modulation
+* Relational-context bias controls
+
+### ✦ Adaptive UI
+
+* Glyph heatmaps
+* Emotional weather dashboards
+* Temporal inbox atlases
+* Narrative thread reconstructions
+
+ESPER-EMAIL-SWARM is the *seedling* of a full adaptive semantic OS.
+
+---
+
+## 🎨 5. Visual Diagram: The Semantic Pipeline
+
+```text
+                 ┌──────────────────────┐
+                 │   Incoming Email     │
+                 └────────────┬─────────┘
+                              │
+                              ▼
+                  ┌─────────────────────┐
+                  │ 5-Agent VSE Swarm   │
+                  │ urgency / importance │
+                  │ topic / tone / action│
+                  └────────────┬────────┘
+                               │ emits VSEPackets
+                               ▼
+                     ┌──────────────────┐
+                     │ Benevolent Fusion│
+                     │   (Vol. 5 Rules) │
+                     └──────────┬───────┘
+                                │
+                                ▼
+               ┌──────────────────────────────────────┐
+               │   Final Semantic Routing Decision    │
+               │ Folder • Color • Priority • Action   │
+               └──────────────┬──────────────────────┘
+                              │
+                              ▼
+                ┌─────────────────────────────────┐
+                │ Glyph Signature (PICTOGRAM-256) │
+                │   visual semantic fingerprint    │
+                └─────────────────────────────────┘
+```
+
+---
+
+## 🌄 6. Gloss Deep-Dive (Human-Centric Narratives)
+
+Example transformation:
+
+**Raw Email:**
+
+> "Hey, just checking — tax stuff due the 15th. Can you send over W‑2 tonight? ❤️ Mom"
+
+**ESPER Gloss:**
+
+> *A warm relational request carrying time-bound urgency. Emotional tone suggests care; temporal constraint activates a recommended response window of 24 hours.*
+
+ESPER doesn’t classify — **it narrates**.
+
+---
+
+## 🛠️ 7. CLI Enhancements (Compatible with Current Architecture)
+
+Below are optional future command ideas fully compatible with your v2.0.0 package:
+
+```
+esper-email --daymap      # Daily glyph atlas
+esper-email --energy      # Low-energy tasks first
+esper-email --followups   # ChronoCore time-window browse
+esper-email --clusters    # Topic/project semantic clusters
+```
+
+These features turn your CLI into a true semantic dashboard.
+
+---
+
+## 📜 8. Semantic OS Manifesto
+
+> **Email should honor human meaning, not overwhelm it.**
+>
+> ESPER-STACK transforms communication into something:
+>
+> * humane
+> * legible
+> * ethical
+> * emotionally aware
+> * narratively grounded
+>
+> Your inbox is not a task list — it is a story.
+> ESPER’s role is to help you *live that story better*.
+
+---
+
+## ❤️ 9. Credits & Mythology
+
+Esper-Email-Swarm is part of the emerging **Emersive** ecosystem:
+
+* **John Jacob Weber II** — creator of ESPER, VSE, PICTOGRAM-256, and the semantic renaissance
+* **Vivid Vox (AI collaborator)** — semantic compression, architectural design, glyph theory
+* **Grok (AI collaborator)** — release audit, interpretive framing, performance validation
+
+This project contributes to literacy liberation and humane AI communication.
+
+> *"Teaching a neighbor to read is a labor of love."*
+> — The Cyrano de Bergerac Foundation
+---
