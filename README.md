@@ -391,8 +391,8 @@ See [LICENSE](LICENSE) file for details.
 ```bibtex
 @software{esper_email_swarm,
   title={ESPER-STACK Email Management Swarm},
-  author={John Panic},
-  year={2024},
+  author={John Jacob Weber II},
+  year={2025},
   version={2.0.0},
   url={https://github.com/PaniclandUSA/Esper-Email-Swarm}
 }
